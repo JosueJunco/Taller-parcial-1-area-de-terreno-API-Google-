@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #B2B2AC;
+
+}
+#map {
+  width: 100%;
+  height: 50%;
+}
+
+#coords{
+  width: 265px;
+  height: 20px;
+  font-style: italic;
+  color: black;
+  background: #7F7A75;
+  position: relative;
+  top: 10px;
+  left: 47px;
+  border-radius: 10px;
+}
+
+/*Boton obtener coordenadas*/
+#Obtener{
+  height: 26px;
+  color: white;
+  background: #161CA6;
+  font-style: italic;
+  border-radius: 10px;
+}
+
+.bt1{
+  position: relative;
+  top: 20px;
+  right:;
+  left: 110px;
+}
+
+/*Consola titulo*/
+#titleconsol{
+
+  width:90px;
+  font-style: oblique;
+  border-radius: 7px;
+}
+
+.consoltitle{
+    position: relative;
+    top: 14px;
+    left: 150px;
+}
+
+
+/*text area consola*/
+.Consola{
+  position: relative;
+  top: 50;
+  right:;
+  left: 28px;
+  border-radius: 10px;
+}
+
+#result{
+    background-color: black;
+    color: white;
+    font-style: italic;
+
+}
+
+/*Boton hallar area*/
+.ab{
+  position: relative;
+  left: 141px;
+}
+
+#area{
+  color: white;
+  height: 26px;
+  background: #D47F1B;
+  font-style: italic;
+  border-radius: 5px;
+}

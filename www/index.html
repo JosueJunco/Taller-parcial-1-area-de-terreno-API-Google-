@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Obtener coordenadas de un marcador </title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+  <body >
+    <div id="map"></div>
+
+    <input type="text" id="coords" />
+    <script src="js/SaveCoordenada.js"></script>
+    <div class="bt1">
+      <button id="Obtener" type="Button" name="Obtener" onclick="GuardarCoordenada()">Guardar Coordenada</button>
+    </div>
+    <div class="consoltitle">
+      <h3 id="titleconsol"> Consola</h3>
+    </div>
+
+    <div class="Consola">
+      <textarea id="result" name="result"  rows="10" cols="40"></textarea>
+    </div>
+
+    <div class="ab">
+      <button id="area" type="button" name="area" onclick="hallarArea()">Hallar area</button>
+    </div>
+    <script src="js/Marcador.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDnbZYiq53jQq4dZ_D7-_sq4Y8etIgXoc&callback=initMap"
+    async defer></script>
+  </body>
+</html>
