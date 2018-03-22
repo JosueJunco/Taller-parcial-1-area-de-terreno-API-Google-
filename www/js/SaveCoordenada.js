@@ -1,8 +1,8 @@
 var i=0;
-var coordenadas = new Array();
-var radianes = new Array();
-var datosFloat = new Array();
-var cooPlana = new Array();
+var coordenadas = new Array(); //se guardan las coordenadas
+var radianes = new Array(); // se guardan las coordenadas en radianes
+var datosFloat = new Array(); // se convierten las cordenadas string a float
+var cooPlana = new Array(); // se guardan las coordenadas planas
 
 //Guardar coordenadas
 function GuardarCoordenada(){
