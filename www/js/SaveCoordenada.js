@@ -33,14 +33,11 @@ function hallarArea() {
 		var x = 0;
 		var y = 0;
 		while(j < radianes.length){
-      //X , Y
-      //x = distancia * Math.cos(radianes[j]);
+      //X , Y     
       x = (2*6371.0)*(Math.asin(Math.sqrt(Math.pow((Math.sin((0-0)/2)),2) + ( 1 * 1 * Math.pow( (Math.sin((radianes[j+1]-0)/2)),2)))));
       cooPlana.push(x);
-      //y = distancia * Math.sin(radianes[j]);
       y = (2*6371.0)*(Math.asin(Math.sqrt(Math.pow((Math.sin((radianes[j]-0)/2)),2) + ( 1 * Math.cos(radianes[j]) * Math.pow( (Math.sin((0-0)/2)),2)))));
       cooPlana.push(y);
-      //distancia = 0;
       x=0;
       y=0;
       j = j+2;
@@ -48,7 +45,7 @@ function hallarArea() {
 
 		//Hallar el area
 		var Dx = 0;
-    var Iy = 0;
+    		var Iy = 0;
 		j=0;
 		var k = 3;
 		//Hallar D
